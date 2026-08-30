@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07070b">
+<title>NEXRAVE — Electronic Music</title>
+<meta name="description" content="NEXRAVE — techno, trance, rave, hard dance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader"><div class="loader-logo">NEX<span>RAVE</span></div><div class="loadbar"><i></i></div></div>
+<div class="ambient a1"></div><div class="ambient a2"></div><div class="noise"></div>
+
+<header>
+  <a class="logo" href="#home">NEX<span>RAVE</span></a>
+  <nav>
+    <a href="#releases">RELEASES</a><a href="#artist">ARTIST</a><a href="#events">EVENTS</a><a href="#gallery">GALLERY</a><a href="#contact">CONTACT</a>
+  </nav>
+  <a class="top-play" href="#player">▶ PLAY</a>
+  <button class="hamb" aria-label="Menu">☰</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-text">
+    <div class="status"><b></b> TRANSMISSION ONLINE</div>
+    <h1>FEEL<br><span>THE</span><br>FREQUENCY</h1>
+    <p>TECHNO × TRANCE × RAVE</p>
+    <div class="actions"><a class="btn pink" href="#player">▶ LISTEN NOW</a><a class="btn line" href="#releases">EXPLORE RELEASES ↓</a></div>
+  </div>
+  <div class="visual">
+    <div class="rings"><i></i><i></i><i></i></div>
+    <div class="core"><strong>NXR</strong><small>150 BPM</small></div>
+    <div class="label l1">DARK<br>ENERGY</div><div class="label l2">LIVE<br>TRANSMISSION</div>
+  </div>
+  <div class="scroll">SCROLL TO ENTER <span>↓</span></div>
+</section>
+
+<section class="ticker"><div>TECHNO • TRANCE • HARD DANCE • RAVE • TECHNO • TRANCE • HARD DANCE • RAVE •</div></section>
+
+<section class="section" id="releases">
+  <div class="heading"><div><small>01 / RELEASES</small><h2>LATEST <em>DROPS</em></h2></div><span>2026 / NEXRAVE</span></div>
+  <div class="release-grid">
+    <article class="release featured"><div class="art art1"><span>NXR</span></div><div class="release-info"><small>NX001 / ORIGINAL</small><h3>NEON RITUAL</h3><p>150 BPM · TECHNO / TRANCE</p><button class="mini-play" data-track="0">▶ PLAY TRACK</button></div></article>
+    <article class="release"><div class="art art2"><span>NXR</span></div><div class="release-info"><small>NX002 / DARK EDIT</small><h3>DARK CATHEDRAL</h3><p>148 BPM · TRANCE</p><button class="mini-play" data-track="1">▶ PLAY TRACK</button></div></article>
+    <article class="release"><div class="art art3"><span>NXR</span></div><div class="release-info"><small>NX003 / HARD MIX</small><h3>MIDNIGHT RAVE</h3><p>155 BPM · HARD DANCE</p><button class="mini-play" data-track="2">▶ PLAY TRACK</button></div></article>
+  </div>
+</section>
+
+<section class="player-section" id="player">
+  <div class="section player-wrap">
+    <div class="heading"><div><small>02 / AUDIO SYSTEM</small><h2>NEXRAVE <em>PLAYER</em></h2></div></div>
+    <div class="player">
+      <div class="cover"><div>NEX<br><b>RAVE</b></div></div>
+      <div class="player-content">
+        <small>NOW TRANSMITTING</small><h3 id="title">NEON RITUAL</h3><p id="meta">Original Mix · 150 BPM</p>
+        <div class="wave" id="wave"></div>
+        <div class="timeline"><span id="cur">0:00</span><input id="seek" type="range" min="0" max="100" value="0"><span id="dur">0:00</span></div>
+        <div class="player-controls"><button id="prev">◀</button><button id="play" class="big">▶</button><button id="next">▶</button><label>VOL <input id="vol" type="range" min="0" max="1" step=".01" value=".8"></label></div>
+        <audio id="audio" preload="metadata"></audio>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section artist" id="artist">
+  <div class="portrait"></div>
+  <div class="artist-copy"><small>03 / ARTIST</small><h2>BUILT FOR<br><em>THE NIGHT.</em></h2><p>NEXRAVE to fikcyjny projekt DJ / producenta łączący mocne techno, melodyczny trance, hard dance i mroczną atmosferę rave. Ta strona jest gotowym szkieletem pod prawdziwą markę artysty.</p>
+  <div class="facts"><div><b>150+</b><span>BPM</span></div><div><b>24/7</b><span>RAVE MODE</span></div><div><b>∞</b><span>ENERGY</span></div></div></div>
+</section>
+
+<section class="section events" id="events">
+  <div class="heading"><div><small>04 / LIVE</small><h2>UPCOMING <em>EVENTS</em></h2></div></div>
+  <div class="event"><time><b>12</b><span>SEP</span></time><div><small>WARSAW · POLAND</small><h3>NIGHT FREQUENCY</h3></div><a href="#contact">INFO →</a></div>
+  <div class="event"><time><b>27</b><span>SEP</span></time><div><small>WROCŁAW · POLAND</small><h3>RAVE TERMINAL</h3></div><a href="#contact">INFO →</a></div>
+  <div class="event"><time><b>10</b><span>OCT</span></time><div><small>KRAKÓW · POLAND</small><h3>AFTER DARK 004</h3></div><a href="#contact">INFO →</a></div>
+</section>
+
+<section class="section gallery" id="gallery">
+  <div class="heading"><div><small>05 / VISUALS</small><h2>AFTER <em>DARK</em></h2></div></div>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1571266028243-d220c9c3b8da?auto=format&fit=crop&w=1200&q=85" alt="Scena koncertowa">
+    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1000&q=85" alt="Tłum na koncercie">
+    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=85" alt="Koncert">
+    <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85" alt="Festiwal">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div><small>06 / CONTACT</small><h2>MAKE<br><em>NOISE.</em></h2><p>Booking · Remix · Collab · Events</p></div>
+  <a class="mail" href="mailto:booking@nexrave.pl">booking@nexrave.pl</a>
+  <div class="social"><a href="#">INSTAGRAM</a><a href="#">YOUTUBE</a><a href="#">SOUNDCLOUD</a></div>
+</section>
+</main>
+<footer><a class="logo" href="#home">NEX<span>RAVE</span></a><span>© 2026 NEXRAVE. ALL FREQUENCIES RESERVED.</span><a href="#home">↑ TOP</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
