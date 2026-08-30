@@ -1,7 +1,7 @@
 const tracks=[
- {t:"NEON RITUAL",m:"Original Mix · 150 BPM",f:"music/neon-ritual.mp3"},
- {t:"DARK CATHEDRAL",m:"Trance Edit · 148 BPM",f:"music/dark-cathedral.mp3"},
- {t:"MIDNIGHT RAVE",m:"Hard Mix · 155 BPM",f:"music/midnight-rave.mp3"}
+ {t:"JAS TAGI",m:"NEXRAVE · USER TRACK",f:"jas-tagi.mp3"},
+ {t:"ZIELONE PIEKŁO NORD 3",m:"NEXRAVE · USER TRACK",f:"zielone-pieklo-nord-3.mp3"},
+ {t:"DAN BLON",m:"NEXRAVE · USER TRACK",f:"dan-blon.mp3"}
 ];
 const audio=document.querySelector("#audio"),play=document.querySelector("#play"),seek=document.querySelector("#seek"),vol=document.querySelector("#vol"),title=document.querySelector("#title"),meta=document.querySelector("#meta"),cur=document.querySelector("#cur"),dur=document.querySelector("#dur");let i=0;
 const wave=document.querySelector("#wave");for(let n=0;n<46;n++){let x=document.createElement("i");x.style.height=(15+Math.random()*70)+"%";x.style.animationDelay=(Math.random()*.7)+"s";wave.append(x)}
